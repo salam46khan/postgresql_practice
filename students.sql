@@ -30,7 +30,19 @@ INSERT INTO groups (group_name) VALUES
 INSERT INTO students(roll_no, reg_no, student_name, group_id) VALUES
 (1001, 1612345678, 'Nusrat Jahan', 1),
 (1002, 1612345679, 'Tanvir Ahmed', 1),
-(2001, 1612345680, 'Imran Hossain', 2);
+(2001, 1612345680, 'Imran Hossain', 2),
+(1006, 1612345616, 'Samiul Islam', 1),
+(1007, 1612345617, 'Fariha Zaman', 1),
+(1008, 1612345618, 'Asif Khondoker', 1),
+(1009, 1612345619, 'Sadia Sultana', 1),
+(2006, 1612345620, 'Imran Hossain', 2),
+(2007, 1612345621, 'Rashedul Bari', 2),
+(2008, 1612345622, 'Mehjabin Chowdhury', 2),
+(2009, 1612345623, 'Naimur Rahman', 2),
+(3006, 1612345624, 'Tahsan Khan', 3),
+(3007, 1612345625, 'Mithila Rahman', 2),
+(3008, 1612345626, 'Siam Ahmed', 3),
+(3009, 1612345627, 'Sabila Nur', 3);
 
 -- view all group/
 SELECT * FROM groups
